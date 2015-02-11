@@ -1,0 +1,4 @@
+deploy:
+  override:
+    - ./gradlew distTar
+    - cap production deploy
